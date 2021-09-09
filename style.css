@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  color: white;
+  font-family: 'Urbanist', sans-serif;
+}
+
+body {
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin: 30px auto;
+  padding: 70px;
+  background-color: rgba(0,0,0,0.5);
+  width: 50%;
+  border-radius: 20px;
+}
+
+header, nav {
+  text-align: center;
+}
+
+header .logo {
+  width: 220px;
+}
+
+header h1 {
+  color: #00ff00;
+  margin-bottom: 5px;
+}
+
+nav {
+  background-color: #00ff00;
+  padding: 10px;
+}
+
+nav input {
+  color: black;
+}
+
+main {
+  width: 60%; /* Una scelta estetica per riprodurre grossomodo le dimensioni nello screenshot, supponendo che la barra verde sia carica al 100% */
+}
+
+.monopattino {
+  margin-top: 20px;
+}
+
+.monopattino h2 {
+  display: inline-block;
+}
+
+.monopattino .indirizzo {
+  margin: 4px 0;
+}
+
+.monopattino .indirizzo:before {
+  content: "\21A6";
+}
+
+.monopattino .carica {
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 2px;
+}
+
+.monopattino .meta {
+  background-color: orange;
+  width: 60%;
+}
+
+.monopattino .carico {
+  background-color: lime;
+}
+
+.monopattino .scarico {
+  background-color: red;
+  width: 30%;
+}
